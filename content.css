@@ -4,8 +4,8 @@ body {
 }
 img, video, canvas, .img, [role="img"] {
 	opacity: 0.25 !important;
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s;
+	transition: all 1s ease-in !important;
+	-webkit-transition: all 1s ease-in !important;
 	filter: grayscale(100%);
 	webkit-filter': grayscale(100%);
 }
@@ -16,4 +16,9 @@ video:hover, canvas:hover,
 	opacity: 1 !important;
 	filter: grayscale(0%);
 	webkit-filter': grayscale(0%);
+}
+
+p {
+	font-size: 15px !important;
+	line-height: 1.38 !important;
 }
