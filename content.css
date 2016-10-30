@@ -2,7 +2,7 @@
 body {
 
 }
-img, video, canvas {
+img, video, canvas, .img, [role="img"] {
 	opacity: 0.25 !important;
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
@@ -10,7 +10,9 @@ img, video, canvas {
 	webkit-filter': grayscale(100%);
 }
 
-a:hover img, img:hover, video:hover, canvas:hover {
+a:hover img, img:hover,
+video:hover, canvas:hover,
+.img:hover, [role="img"]:hover {
 	opacity: 1 !important;
 	filter: grayscale(0%);
 	webkit-filter': grayscale(0%);
