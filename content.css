@@ -1,0 +1,17 @@
+
+body {
+
+}
+img, video, canvas {
+	opacity: 0.25 !important;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	filter: grayscale(100%);
+	webkit-filter': grayscale(100%);
+}
+
+a:hover img, img:hover, video:hover, canvas:hover {
+	opacity: 1 !important;
+	filter: grayscale(0%);
+	webkit-filter': grayscale(0%);
+}
