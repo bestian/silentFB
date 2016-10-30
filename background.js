@@ -1,17 +1,17 @@
-// Copyright (c) 2011 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
 // Called when the user clicks on the browser action.
 chrome.browserAction.onClicked.addListener(function(tab) {
   // No tabs or host permissions needed!
-  console.log('Turning ' + tab.url + ' red!');
+  console.log('Turning ' + tab.url + ' gray!');
 
   var code = `
-  document.body.style.opacity='0.5';
-  document.body.style.filter='grayscale(100%)';
-  document.body.style['-webkit-filter']='grayscale(100%)';
-  console.log(chrome);
+  if (document.body.style.filter !== 'grayscale(100%)') { 
+    document.body.style.filter='grayscale(100%)';
+    document.body.style['-webkit-filter']='grayscale(100%)';
+    // window.alert('即將切換灰階。再按一次可回復')
+  } else {
+    document.body.style.filter='grayscale(0%)';
+    document.body.style['-webkit-filter']='grayscale(0%)'    
+  }
   `;
 
   chrome.tabs.executeScript({
