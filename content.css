@@ -10,7 +10,7 @@ img, video, canvas, .img, [role="img"] {
 	webkit-filter': grayscale(100%);
 }
 
-a:hover *, img:hover,
+a:hover img, img:hover,
 video:hover, canvas:hover,
 .img:hover, [role="img"]:hover {
 	opacity: 1 !important;
