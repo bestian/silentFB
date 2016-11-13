@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "Silent FB",
+    "description": "extension name"
+  },
+  "extIntro": {
+    "message": "Make Facebook images grayscale to avoid overstimulation",
+    "description": "extension into"    
+  }
+}
