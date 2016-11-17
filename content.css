@@ -2,7 +2,7 @@
 body {
 
 }
-img, video, canvas, .img, [role="img"] {
+img, video, canvas, .img, [role="img"], a div::after {
 	opacity: 0.25 !important;
 	transition: all 1s ease-in !important;
 	-webkit-transition: all 1s ease-in !important;
@@ -12,7 +12,8 @@ img, video, canvas, .img, [role="img"] {
 
 a:hover img, img:hover,
 video:hover, canvas:hover,
-.img:hover, [role="img"]:hover {
+.img:hover, [role="img"]:hover,
+a:hover div::after {
 	opacity: 1 !important;
 	filter: grayscale(0%);
 	webkit-filter': grayscale(0%);
