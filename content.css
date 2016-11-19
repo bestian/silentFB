@@ -2,6 +2,7 @@
 body {
 
 }
+
 img, video, canvas, .img, [role="img"], a div::after {
 	opacity: 0.25 !important;
 	transition: all 1s ease-in !important;
@@ -9,6 +10,13 @@ img, video, canvas, .img, [role="img"], a div::after {
 	filter: grayscale(100%);
 	webkit-filter': grayscale(100%);
 }
+
+
+video {
+	transition: all 10000s ease-in !important;
+	-webkit-transition: all 10000s ease-in !important;	
+}
+
 
 a:hover img, img:hover,
 video:hover, canvas:hover,
@@ -18,6 +26,9 @@ a:hover div::after {
 	filter: grayscale(0%);
 	webkit-filter': grayscale(0%);
 }
+
+
+
 
 p {
 	font-size: 15px !important;
