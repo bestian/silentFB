@@ -1,9 +1,15 @@
 # silentFB
-silentFB -- a Simple Chrome Extension
 
-make Facebook UI slient to prevent overstimulation.
+make Facebook UI grayscale to avoid overstimulation.
 
-## Install
 
-1. download .zip
-2. use chrome > settings > extensions > load unpacked extension
+## Installation
+
+* visit [https://bestian.github.io/silentFB/](https://bestian.github.io/silentFB/)
+
+
+
+## Bug Report
+
+* post [Issues](https://github.com/bestian/silentFB/issues)
+
