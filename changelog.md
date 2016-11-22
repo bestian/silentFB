@@ -3,15 +3,13 @@
 All notable changes to this project will be documented in this file.
 
 
-## [Unreleased]
 
+## [Unreleased]
 
 ### Changed
 -vedio滑出時不會回到灰階
 
-
 ### Added
-
 
 
 

@@ -5,14 +5,13 @@ body {
 
 img, video, canvas, .img, [role="img"], a div::after {
 	opacity: 0.25 !important;
-	transition: all 1s ease-in !important;
-	-webkit-transition: all 1s ease-in !important;
+	transition: all 1s ease-in;
+	-webkit-transition: all 1s ease-in;
 	filter: grayscale(100%);
-	webkit-filter': grayscale(100%);
+	webkit-filter: grayscale(100%);
 }
 
-
-video {
+video, canvas {
 	transition: all 10000s ease-in !important;
 	-webkit-transition: all 10000s ease-in !important;	
 }
@@ -24,7 +23,9 @@ video:hover, canvas:hover,
 a:hover div::after {
 	opacity: 1 !important;
 	filter: grayscale(0%);
-	webkit-filter': grayscale(0%);
+	webkit-filter: grayscale(0%);
+	transition: all 1s ease-in !important;
+	-webkit-transition: all 1s ease-in !important;
 }
 
 
