@@ -7,8 +7,8 @@ img, video, canvas, .img, [role="img"], a div::after {
 	opacity: 0.25 !important;
 	transition: all 1s ease-in;
 	-webkit-transition: all 1s ease-in;
-	filter: grayscale(100%);
-	webkit-filter: grayscale(100%);
+	filter: grayscale(100%) !important;
+	webkit-filter: grayscale(100%) !important;
 }
 
 video, canvas {
